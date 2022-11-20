@@ -1,3 +1,19 @@
 body{
-    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    font-family: "Montserrat" sans-serif;
 }
+h1{
+    font-family: "Montserrat", sans-serif;
+    color: #D27F78;
+    text-align: center;
+}
+
+.nav-bar{
+    align-content: left;
+    font-family: "Montserrat", sans-serif;
+    color: #FFC7BA;
+}
+
+.header{
+    background-color: #8865FF;
+}
+
