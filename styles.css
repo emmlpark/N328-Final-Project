@@ -1,11 +1,13 @@
 body{
     font-family: "Montserrat" sans-serif;
 }
-h1{
+h1, h2{
     font-family: "Montserrat", sans-serif;
     color: #D27F78;
     text-align: center;
 }
+
+
 
 .nav-bar{
     align-content: left;
