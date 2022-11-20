@@ -1,6 +1,7 @@
 <html lang="en">
 <head>
-    <title>A simple HTML document</title>
+    <title>Visualization</title>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -14,6 +15,23 @@
         <H2>N328 Final Project</H2>
         <h2>Emma Parker</h2>
     </div>
-    <p>Test<p>
+    <svg id="main" width="600" height="600">
+        <text id="label" x='20' y='20'> How Many Popular Songs per Artist </text>
+        <g>transform="translate(20,40)">
+        </g>
+
+    </svg>
+
+    <script type="text/javascript">
+        var dataset; //global variable
+
+        d3.csv("TikTok_songs_2022.csv", function(data){
+            dataset = data;
+            console.log(data);
+        });
+        
+        
+        
+    </script>
 </body>
 </html>
