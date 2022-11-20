@@ -7,6 +7,10 @@ h1, h2{
     text-align: center;
 }
 
+h1{
+    font-size: 3em;
+}
+
 
 
 .nav-bar{
@@ -15,7 +19,18 @@ h1, h2{
     color: #FFC7BA;
 }
 
-.header{
-    background-color: #8865FF;
+
+a:link{
+    color: #FFC7BA;
+    text-decoration: none;
+}
+a:visited{
+    color: #FFC7BA ;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: white;
+    text-decoration: underline;
 }
 
