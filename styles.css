@@ -10,6 +10,15 @@ h1, h2{
 h1{
     font-size: 3em;
 }
+h3{
+    color:#aa9abd;
+    text-align: left;
+    margin-left: 80;
+}
+
+button{
+    margin-left: 80;
+}
 
 
 
@@ -34,3 +43,18 @@ a:hover{
     text-decoration: underline;
 }
 
+button:active{
+    background-color: #aa9abd;
+}
+
+.description{
+    margin-left: 80;
+    margin-right: 80;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
